@@ -1,0 +1,11 @@
+<!-- global.mjml -->
+<!-- <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Raleway" /> -->
+<mj-all font-family="Open Sans,Helvetica" />
+<mj-all padding="8px" />
+<mj-all line-height="20px" />
+<mj-breakpoint width="320px" />
+<mj-class name="brand-white" background-color="#ffffff" />
+<mj-class name="brand-red" background-color="#ea0044" />
+<!-- 
+                <mj-class name="big" font-size="20px" /> 
+            -->

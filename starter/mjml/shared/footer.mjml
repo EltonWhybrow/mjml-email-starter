@@ -1,0 +1,33 @@
+<!-- footer.mjml -->
+<mj-section mj-class="brand-red" full-width="full-width">
+  <mj-column>
+
+    <mj-text color="#ffffff" align="center" font-size="12px" padding="20px 0">
+      <a href="#" style="text-decoration: none; color: inherit;">Privacy policy</a> |
+      <a href="#" style="text-decoration: none; color: inherit;">About us</a> |
+      <a href="#" style="text-decoration: none; color: inherit;">Contact us</a>
+    </mj-text>
+
+    <mj-text color="#ffffff" font-size="12px" line-height="20px" css-class="brand-footer-link">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolores!<a href="#">Your company</a>
+    </mj-text>
+
+  </mj-column>
+
+</mj-section>
+
+<mj-section mj-class="brand-red" full-width="full-width">
+  <mj-group>
+    <mj-column>
+      <mj-image align="right" width="32px" height="32px" padding="0" href="#" src="http://unsplash.it/g/32/32?gravity=center"></mj-image>
+    </mj-column>
+
+    <mj-column>
+      <mj-image align="center" width="32px" height="32px" padding="0" href="#" src="http://unsplash.it/g/32/32?gravity=center"></mj-image>
+    </mj-column>
+
+    <mj-column>
+      <mj-image align="left" width="32px" height="32px" padding="0" href="#" src="http://unsplash.it/g/32/32?gravity=center"></mj-image>
+    </mj-column>
+  </mj-group>
+</mj-section>

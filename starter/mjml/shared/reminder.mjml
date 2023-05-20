@@ -1,0 +1,12 @@
+<!-- reminder.mjml -->
+<mj-text padding-top="0" padding-bottom="0" font-size="18px" font-weight="700" align="center" color="#0a2a3b">
+  <p style="margin-bottom: 0;">Here’s a bullet list:</p>
+</mj-text>
+
+<mj-text padding-top="0" font-size="14px" align="center" color="#0a2a3b">
+  <ul style="margin-top: 5px;">
+    <li>Click <a href="#" style="text-decoration: none; color: #aa182c;">Link</a> looks like this.</li>
+    <li>List item</li>
+    <li>List item</li>
+  </ul>
+</mj-text>

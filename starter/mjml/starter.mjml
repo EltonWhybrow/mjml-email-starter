@@ -1,0 +1,78 @@
+<mjml>
+  <!-- Head attributes -->
+  <mj-head>
+    <mj-title>Don't forget to put a title here</mj-title>
+    <mj-preview>Preview text here too</mj-preview>
+    <mj-attributes>
+      <!-- global head -->
+      <mj-include path="./shared/global.mjml" />
+    </mj-attributes>
+
+    <!-- styles -->
+    <mj-include path="./shared/style.mjml" />
+  </mj-head>
+
+  <mj-body mj-class="brand-white">
+
+    <!-- Header -->
+    <mj-include path="./shared/header.mjml" />
+
+    <!-- Masthead -->
+    <mj-include path="./shared/masthead.mjml" />
+
+    <!-- Welcome content -->
+    <mj-section>
+      <mj-column>
+
+        <mj-text font-size="24px" line-height="26px" font-weight="700" align="center" color="#0a2a3b">
+          Below will be some examples of layout options in MJML.
+        </mj-text>
+
+        <!-- Welcome txt -->
+        <mj-include path="./shared/welcome.mjml" />
+
+      </mj-column>
+    </mj-section>
+
+    <!-- Main content -->
+    <mj-section>
+      <mj-column>
+
+        <mj-text font-size="14px" align="center" color="#0a2a3b">
+          <p>Lorem ipsum</p>
+        </mj-text>
+
+        <mj-text padding-bottom="0" font-size="20px" font-weight="700" align="center" color="#00b2a9">
+          <p>Lorem ipsum</p>
+        </mj-text>
+
+        <mj-text font-size="14px" align="center" color="#0a2a3b">
+<p>Lorem ipsum</p>
+        </mj-text>
+
+        <!-- Reminder -->
+        <mj-include path="./shared/reminder.mjml" />
+
+        <mj-text padding-bottom="0" font-size="20px" font-weight="700" align="center" color="#00b2a9">
+          <p>Bold color text</p>
+        </mj-text>
+
+        <mj-text font-size="14px" align="center" color="#0a2a3b">
+          <p><srong>Strong</strong> text in this paragrapgh.</p>
+        </mj-text>
+
+        <mj-text font-size="14px" align="center" color="#0a2a3b">
+          Some other text
+        </mj-text>
+
+        <!-- Outro -->
+        <mj-include path="./shared/outro.mjml" />
+
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-include path="./shared/footer.mjml" />
+
+  </mj-body>
+</mjml>

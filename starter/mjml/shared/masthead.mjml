@@ -1,0 +1,5 @@
+<mj-section>
+  <mj-column padding="0 0 0 0">
+    <mj-image width="600px" src="http://unsplash.it/g/600/200?gravity=center"></mj-image>
+  </mj-column>
+</mj-section>

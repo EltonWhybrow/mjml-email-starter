@@ -1,0 +1,14 @@
+<!-- outro.mjml -->
+<mj-text font-size="14px" align="center" color="#0a2a3b">
+  <p>
+    Thanks,<br />
+    Your Team
+  </p>
+</mj-text>
+
+<mj-text font-size="14px" align="center" color="#0a2a3b">
+  <p>
+    <strong>Why did you get this email?</strong><br />
+    This email was sent to you because you are a [Brand] customer.
+  </p>
+</mj-text>

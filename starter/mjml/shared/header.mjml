@@ -1,0 +1,7 @@
+<!-- header.mjml -->
+<mj-section>
+  <mj-column>
+    <mj-image width="160px" padding="0" src="http://unsplash.it/g/320/150?gravity=center"></mj-image>
+    <!-- <mj-divider border-color="#F45E43"></mj-divider> -->
+  </mj-column>
+</mj-section>

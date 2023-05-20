@@ -1,0 +1,7 @@
+<mj-style inline="inline">
+  .brand-footer-link a {
+    color: #ffffff;
+    text-decoration: underline;
+
+  }
+</mj-style>
