@@ -1,7 +1,7 @@
 <!-- global.mjml -->
 <!-- <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Raleway" /> -->
 <mj-all font-family="Open Sans,Helvetica" />
-<mj-all padding="8px" />
+<!-- <mj-all padding="8px" /> -->
 <mj-all line-height="20px" />
 <mj-breakpoint width="320px" />
 <mj-class name="brand-white" background-color="#ffffff" />
@@ -9,3 +9,11 @@
 <!-- 
                 <mj-class name="big" font-size="20px" /> 
             -->
+
+<!-- Accordion -->
+<mj-accordion border="none" padding="1px" />
+<mj-accordion-element icon-wrapped-url="http://unsplash.it/g/24/24?gravity=center" icon-unwrapped-url="http://unsplash.it/g/24/24?gravity=center" icon-height="24px" icon-width="24px" />
+<mj-accordion-title font-family="Roboto, Open Sans, Helvetica, Arial, sans-serif" background-color="#fff" color="#031017" padding="15px" font-size="18px" />
+<mj-accordion-text font-family="Open Sans, Helvetica, Arial, sans-serif" background-color="#fafafa" padding="15px" color="#505050" font-size="14px" />
+
+<mj-carousel border-radius="0" left-icon="http://unsplash.it/g/24/24?gravity=center" right-icon="http://unsplash.it/g/24/24?gravity=center" icon-width="24px" tb-border-radius="0" thumbnails="visible"/>

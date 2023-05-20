@@ -9,7 +9,7 @@
     </mj-text>
 
     <mj-text color="#ffffff" font-size="12px" line-height="20px" css-class="brand-footer-link">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolores!<a href="#">Your company</a>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolores! <a href="#">Your company</a>
     </mj-text>
 
   </mj-column>

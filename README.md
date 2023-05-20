@@ -17,6 +17,10 @@ Clone app and run `npm install` install packages and get started.
 - NodeJS
 - MJML
 
+## Tip
+
+Use the vsCode extension - MJML v1.6.0 (Attila Buti)
+
 ## Build Templates
 
 Templates start life as mjml files in the mjml dir - these include shared files from the shared dir.\

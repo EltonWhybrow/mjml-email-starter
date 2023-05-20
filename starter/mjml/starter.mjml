@@ -21,7 +21,7 @@
     <mj-include path="./shared/masthead.mjml" />
 
     <!-- Welcome content -->
-    <mj-section>
+    <mj-section >
       <mj-column>
 
         <mj-text font-size="24px" line-height="26px" font-weight="700" align="center" color="#0a2a3b">
@@ -35,7 +35,7 @@
     </mj-section>
 
     <!-- Main content -->
-    <mj-section>
+    <mj-section background-color="#f0f0f0">
       <mj-column>
 
         <mj-text font-size="14px" align="center" color="#0a2a3b">

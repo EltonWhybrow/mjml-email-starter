@@ -1,4 +1,4 @@
-<mj-section>
+<mj-section background-color="#f0f0f0">
   <mj-column padding="0 0 0 0">
     <mj-image width="600px" src="http://unsplash.it/g/600/200?gravity=center"></mj-image>
   </mj-column>
