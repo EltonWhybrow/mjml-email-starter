@@ -32,4 +32,9 @@ Run `npm run build:[brand if used]:prod` to compile MJML into HTML & minify. (ht
 
 Run `npm run build:[brand if used]:extra` to perform extra actions to emails after build (not currenly used - hee in case)
 
+## Testing templates (Nodemailer)
+
+Run `npm run send:email [dir] [file]` to send email to recipients in the node script. (NOTE: Needs email built in dist dir)
+Example - `npm run send:email starter2 starter`
+
 ## Deploy assets (TODO)

@@ -1,0 +1,9 @@
+<mj-section>
+	<mj-column>
+		<mj-carousel>
+			<mj-carousel-image src="http://unsplash.it/g/320/150?gravity=left" />
+			<mj-carousel-image src="http://unsplash.it/g/320/150?gravity=center" />
+			<mj-carousel-image src="http://unsplash.it/g/320/150?gravity=right" />
+		</mj-carousel>
+	</mj-column>
+</mj-section>
