@@ -66,10 +66,10 @@
 
 		<!-- carousel -->
 		<mj-include path="./shared/carousel.mjml" />
-
+		<mj-divider border-color="#F45E43"></mj-divider>
 		<!-- group -->
 		<mj-include path="./shared/group.mjml" />
-
+		<mj-divider border-color="#F45E43"></mj-divider>
 		<mj-raw>
 			<!-- Icons -->
 		</mj-raw>

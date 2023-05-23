@@ -35,6 +35,6 @@ Run `npm run build:[brand if used]:extra` to perform extra actions to emails aft
 ## Testing templates (Nodemailer)
 
 Run `npm run send:email [dir] [file]` to send email to recipients in the node script. (NOTE: Needs email built in dist dir)
-Example - `npm run send:email starter2 starter`
+Example - `npm run send:email BRAND-NAME template-1`
 
 ## Deploy assets (TODO)
