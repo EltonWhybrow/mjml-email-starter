@@ -1,5 +1,6 @@
 const nodemailer = require('nodemailer');
-var htmlToText = require('nodemailer-html-to-text').htmlToText;
+var htmlToText = require('nodemailer-html-to-text').htmlToText
+require('dotenv').config();
 
 const partnerName = process.argv[2];
 const templateName = process.argv[3];
@@ -11,23 +12,14 @@ const emailToTest = templateName + '.html';
 // console.log('emailToTest: ', emailToTest);
 // console.log('The environment is: ', env);
 
-// let transport = nodemailer.createTransport({
-//   host: 'mail.supremecluster.com',
-//   port: 465,
-//   auth: {
-//     user: 'info@widesign.co.uk',
-//     pass: 'wide999SIGN'
-//   }
-// });
-
 // Reusable transporter for nodemailer
 const transporter = nodemailer.createTransport({
     host: "mail.supremecluster.com",
     port: 465, // 587
     // secure: true, // true for 465, false for other ports
     auth: {
-        user: "info@widesign.co.uk", // azure_136dbeacad3fb80e414bb88ce5c1bdac
-        pass: "wide999SIGN" // GVJGwroj2EFoJ
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
     },
     debug: true, // show debug output
     logger: true // log information in console
